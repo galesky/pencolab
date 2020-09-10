@@ -1,0 +1,15 @@
+<div class="menu">
+  <p><span style="font-weight: 600">Current Room</span> {{ currentRoom }}</p>
+</div>
+
+<div class="menu">
+  <button class="btn btn-primary" (click)="clear()" style="margin-right: 20px">
+    <img style="width:18px" src="../../assets/copy-icon.svg" alt="Copy icon"> COPY URL
+  </button>
+  <button class="btn btn-primary" (click)="clear()" style="margin-right: 20px">
+    CLEAR CANVAS
+  </button>
+  <!-- <button class="btn btn-primary" (click)="ping()">PING</button> -->
+</div>
+
+<canvas #canvas></canvas>
